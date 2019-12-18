@@ -19,6 +19,7 @@ var/
 *.egg
 __pycache__/
 node_modules/
+.vscode/
 
 
 # Serverless directories

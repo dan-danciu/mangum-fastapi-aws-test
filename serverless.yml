@@ -17,6 +17,9 @@ app: magnum-fastapi-aws
 org: dandanciu13
 plugins:
   - serverless-python-requirements
+# custom:
+#   pythonRequirements:
+#     dockerizePip: non-linux
 provider:
   name: aws
   runtime: python3.6
@@ -52,6 +55,10 @@ provider:
 #    - include-me-dir/**
   exclude:
     - venv/**
+    - .venv/**
+    - node_modules/**
+    - .vscode/**
+    - .serverless/**
 
 functions:
   hello:
