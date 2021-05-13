@@ -1,6 +1,6 @@
 dataclasses==0.7
 fastapi==0.45.0
 mangum==0.6.19
-pydantic==1.2
+pydantic==1.6.2
 starlette==0.12.9
 typing-extensions==3.7.4.1
